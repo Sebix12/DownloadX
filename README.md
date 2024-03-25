@@ -13,4 +13,4 @@ when you open the program it will say:
 Follow the obvious instructions when you open the file!
 
 # Gypsies who helped
-Cablesalty: https://github.com/cablesalty (cigány) laugh at him: [Link](https://camo.githubusercontent.com/2375aaccbf77ca02db210156c696f0ac567e47f49e6662f9781aa05f7fc2cc18/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d6361626c6573616c7479)
+Cablesalty: https://github.com/cablesalty (cigány) laugh at him.
