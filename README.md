@@ -1,8 +1,9 @@
 # DownloadX
-easy link download! and fast currently making new versions
+Easily download from a direct link!
 
-how to use grab a link like this one: https://www.website.com/stuff/stuff/stuff/filename.pdf
-you can use links like:https://www.youtube.com/watch?v=dQw4w9WgXcQ
+# Usage
+
+
 only direct links!
 when you open the program it will say:
 "mappa!"<random folder name> :: folder is gonna be which where the downloads will go! so be carefull

@@ -1,18 +1,22 @@
-@ECHO OFF
-title downloader
-set link=
-set folder=
-set filetype=
-set /p folder=folder$
+:: Improved by cablesalty!
+@echo off
+title DownloadX
+
+set /p folder=Directory to save to: 
+
 if not exist %folder% mkdir %folder%
 if exist %folder% cd %folder%
-:Download
-set /p link=link$
-set /p filename=name$
-set /p filetype=file type$
-echo Downloading!
-powershell.exe (New-Object Net.WebClient).DownloadFile('%link%', '%filename%.%filetype%')
-echo link %link% name %filename%.%filetype% >> names.txt
-echo Download Done!
-timeout /t 4
-goto :Download
+
+:download
+set /p link=Direct link: 
+set /p filename=Save as (filename): 
+
+echo Downloading...
+:: TODO: Do not invoke powershell
+powershell.exe (New-Object Net.WebClient).DownloadFile('%link%', '%filename%')
+
+echo %link%,%filename% >> history.csv
+
+echo Download done!
+pause
+goto download
